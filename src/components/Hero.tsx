@@ -89,7 +89,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
                 onClick={scrollToContact}
-                className="group bg-white text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl flex items-center space-x-3 min-w-[200px]"
+                className="group bg-white text-blue-50 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl flex items-center space-x-3 min-w-[200px]"
               >
                 <MessageSquare className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 <span>Get Free Quote</span>
