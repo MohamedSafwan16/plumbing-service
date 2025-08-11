@@ -52,7 +52,7 @@ const Hero = () => {
           <div className={`transform transition-all duration-1000 delay-300 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
-            <p className="text-xl md:text-2xl text-blue-50 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
               24/7 emergency services with professional solutions you can trust. 
               Licensed, insured, and delivering excellence across London.
             </p>
@@ -109,10 +109,10 @@ const Hero = () => {
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
             <div className="mt-8">
-              <p className="text-blue-50 text-sm mb-2">Call us now:</p>
+              <p className="text-blue-200 text-sm mb-2">Call us now:</p>
               <a 
                 href="tel:+447946041983" 
-                className="text-2xl md:text-3xl font-bold text-white hover:text-blue-50 transition-colors"
+                className="text-2xl md:text-3xl font-bold text-white hover:text-blue-200 transition-colors"
               >
                 +44 794 604 1983
               </a>
