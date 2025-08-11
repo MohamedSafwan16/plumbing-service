@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Professional plumbing services" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-blue-800/80 to-blue-600/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-100/85 via-blue-800/80 to-blue-100/75"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
         {/* Animated water drops */}
         <div className="absolute top-20 left-20 w-2 h-2 bg-white/20 rounded-full animate-ping"></div>
