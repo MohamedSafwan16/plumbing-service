@@ -12,12 +12,11 @@ export default {
         'ping': 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       },
       backdropBlur: {
-        'xs': '',
+        'xs': '2px',
       },
       colors: {
         blue: {
-          50: '#eff6ff',
-          100: '#dbeafe',
+         
           200: '#bfdbfe',
           300: '#93c5fd',
           400: '#60a5fa',
