@@ -20,7 +20,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
-          src="https://i.imgur.com/ovkrVJh.jpeg" 
+          src= 
           alt="Professional plumbing services" 
           className="w-full h-full object-cover"
         />
