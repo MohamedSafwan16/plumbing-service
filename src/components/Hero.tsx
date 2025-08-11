@@ -42,7 +42,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               London's
               <span className="block text-blue-30">Premier Plumbing</span>
-              <span className="block bg-gradient-to-r from-white to-blue-50 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
                 Experts
               </span>
             </h1>
@@ -109,7 +109,7 @@ const Hero = () => {
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
             <div className="mt-8">
-              <p className="text-blue-50 text-sm mb-2">Call us now:</p>
+              <p className="text-blue-200 text-sm mb-2">Call us now:</p>
               <a 
                 href="tel:+447946041983" 
                 className="text-2xl md:text-3xl font-bold text-white hover:text-blue-200 transition-colors"
