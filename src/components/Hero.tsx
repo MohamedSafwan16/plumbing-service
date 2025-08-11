@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Professional plumbing services" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-blue-800/80 to-blue-600/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-blue-100/50 to-blue-100/50"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
         {/* Animated water drops */}
         <div className="absolute top-20 left-20 w-2 h-2 bg-white/20 rounded-full animate-ping"></div>
@@ -42,7 +42,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               London's
               <span className="block text-blue-50">Premier Plumbing</span>
-              <span className="block bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-white to-blue-50 bg-clip-text text-transparent">
                 Experts
               </span>
             </h1>
@@ -52,7 +52,7 @@ const Hero = () => {
           <div className={`transform transition-all duration-1000 delay-300 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-blue-50 mb-8 max-w-2xl mx-auto leading-relaxed">
               24/7 emergency services with professional solutions you can trust. 
               Licensed, insured, and delivering excellence across London.
             </p>
@@ -89,7 +89,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
                 onClick={scrollToContact}
-                className="group bg-white text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl flex items-center space-x-3 min-w-[200px]"
+                className="group bg-white text-blue-50 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl flex items-center space-x-3 min-w-[200px]"
               >
                 <MessageSquare className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 <span>Get Free Quote</span>
@@ -109,10 +109,10 @@ const Hero = () => {
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
             <div className="mt-8">
-              <p className="text-blue-200 text-sm mb-2">Call us now:</p>
+              <p className="text-blue-50 text-sm mb-2">Call us now:</p>
               <a 
                 href="tel:+447946041983" 
-                className="text-2xl md:text-3xl font-bold text-white hover:text-blue-200 transition-colors"
+                className="text-2xl md:text-3xl font-bold text-white hover:text-blue-50 transition-colors"
               >
                 +44 794 604 1983
               </a>
